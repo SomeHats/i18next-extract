@@ -1,0 +1,8 @@
+{
+  "ERROR": [
+    "No arguments to translation function",
+    "> 1 | t();",
+    "    | ^^^",
+    "  2 | "
+  ]
+}

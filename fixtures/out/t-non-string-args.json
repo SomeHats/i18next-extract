@@ -1,0 +1,8 @@
+{
+  "ERROR": [
+    "First argument to translation function must be a string literal. Dynamic literals are not allowed",
+    "> 1 | t(hello);",
+    "    |  ^^^^^",
+    "  2 | "
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "ERROR": [
+    "Template strings with dynamic parts are not allowed in translation function. Use a static string with {{ }} interpolated values",
+    "> 1 | t(`hello ${world}`);",
+    "    |  ^^^^^^^^^^^^^^^^",
+    "  2 | "
+  ]
+}
