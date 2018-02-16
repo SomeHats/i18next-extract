@@ -1,6 +1,6 @@
 const path = require('path');
 const fs = require('fs');
-const extract = require('./lib/extract');
+const extract = require('./extract');
 
 const fixturesDir = path.join(__dirname, 'fixtures');
 const changeExt = (fileName, newExt) => {
@@ -9,13 +9,9 @@ const changeExt = (fileName, newExt) => {
 };
 const stringify = json => JSON.stringify(json, null, 2);
 
-const options = {
-  func: ['t', 'i18n.t', 'this.props.t'],
-};
-
 const getOutput = input => {
   try {
-    return stringify(extract(input, options));
+    return stringify(extract(input));
   } catch (e) {
     return stringify({ ERROR: e.message.split('\n') });
   }
