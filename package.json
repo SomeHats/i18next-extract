@@ -8,6 +8,7 @@
   },
   "author": "Alex Dytrych <alex@dytry.ch>",
   "license": "MIT",
+  "bin": { "i18next-extract": "./cli.js" },
   "dependencies": {
     "@babel/code-frame": "^7.0.0-beta.40",
     "@babel/traverse": "^7.0.0-beta.40",
