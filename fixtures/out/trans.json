@@ -1,0 +1,8 @@
+[
+  "Hello, world",
+  "Hello, {{world}}",
+  "Hello, {{universe}}",
+  "Goodbye, world",
+  "Goodbye, {{world}}",
+  "Goodbye, {{universe}}"
+]

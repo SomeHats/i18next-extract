@@ -1,6 +1,6 @@
 const path = require('path');
 const fs = require('fs');
-const extract = require('./extract');
+const extract = require('./lib/extract');
 
 const fixturesDir = path.join(__dirname, 'fixtures');
 const changeExt = (fileName, newExt) => {
