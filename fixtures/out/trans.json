@@ -1,10 +1,10 @@
 [
   "Hello, world",
-  "Hello, {{world}}",
-  "Hello, {{universe}}",
+  "Hello, <1>{{world}}</1>",
+  "Hello, <1>{{universe}}</1>",
   "Goodbye, world",
-  "Goodbye, {{world}}",
-  "Goodbye, {{universe}}",
+  "Goodbye, <1>{{world}}</1>",
+  "Goodbye, <1>{{universe}}</1>",
   "Literal interpolation",
   "Numbers!!! 345"
 ]
