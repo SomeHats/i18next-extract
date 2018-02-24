@@ -1,6 +1,6 @@
 {
   "name": "i18next-extract",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "extract keys from react-i18next",
   "main": "index.js",
   "scripts": {
