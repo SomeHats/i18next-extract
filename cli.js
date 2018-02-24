@@ -41,4 +41,9 @@ const extractedKeys = files.map(fileName => {
 
 const uniqueKeys = arrayUniq(arrayFlatten(extractedKeys));
 
-console.log(JSON.stringify(uniqueKeys, null, 2));
+const keysObj = uniqueKeys.reduce((memo, key) => {
+  memo[key] = key;
+  return memo;
+}, {});
+
+console.log(JSON.stringify(keysObj, null, 2));
