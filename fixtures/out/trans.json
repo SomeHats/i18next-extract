@@ -4,5 +4,7 @@
   "Hello, {{universe}}",
   "Goodbye, world",
   "Goodbye, {{world}}",
-  "Goodbye, {{universe}}"
+  "Goodbye, {{universe}}",
+  "Literal interpolation",
+  "Numbers!!! 345"
 ]

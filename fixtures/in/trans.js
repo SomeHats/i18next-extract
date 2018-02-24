@@ -5,4 +5,7 @@
   <I18n.T>Goodbye, world</I18n.T>
   <I18n.T>Goodbye, {{ world }}</I18n.T>
   <I18n.T>Goodbye, {{ universe: 5 }}</I18n.T>
+
+  <Trans>Literal {'interpolation'}</Trans>
+  <Trans>Numbers!!! {345}</Trans>
 </div>;
