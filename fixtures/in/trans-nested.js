@@ -20,4 +20,7 @@
     </em>{' '}
     much <em>you see</em>
   </Trans>
+  <Trans>
+    hello <strong>{{ world }}</strong>
+  </Trans>
 </div>;

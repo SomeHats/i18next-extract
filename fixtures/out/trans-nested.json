@@ -2,5 +2,6 @@
   "<0></0>a <2>b</2> c",
   "a<1>b</1>c",
   "hello <2><0>world</0></2>",
-  "I like <2>things <1>very</1> very <3>very</3></2> much <5>you see</5>"
+  "I like <2>things <1>very</1> very <3>very</3></2> much <5>you see</5>",
+  "hello <1><0>{{world}}</0></1>"
 ]
